@@ -1,1 +1,3 @@
-# actions-test
+# GitHub Actions for WordPress
+
+☠️ Expiremental only. ☠️
