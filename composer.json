@@ -2,5 +2,10 @@
     "name": "adrianduffell/wordpress-actions",
     "description": "Expirementing with GitHub actions.",
     "type": "project",
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.2",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
+        "phpcompatibility/phpcompatibility-wp": "*"
+    }
 }
