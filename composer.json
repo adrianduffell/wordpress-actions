@@ -1,0 +1,20 @@
+{
+    "name": "adrianduffell/wordpress-actions",
+    "description": "Expirementing with GitHub actions.",
+    "type": "project",
+    "require": {},
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.2",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2",
+        "phpcompatibility/phpcompatibility-wp": "*",
+        "phpunit/phpunit": "^7"
+    },
+    "scripts": {
+        "phpunit" : "./vendor/bin/phpunit",
+        "phpcs" : "./vendor/bin/phpcs -s .",
+        "test": [
+          "@phpunit",
+          "@phpcs"
+        ]
+      }
+}
